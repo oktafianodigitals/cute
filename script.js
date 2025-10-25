@@ -16,21 +16,21 @@ const expressions = [
 
 // Quotes array
 const quotes = [
-    "Kamu itu seperti cupcake - manis, imut, dan bikin semua orang tersenyum! 🧁✨",
-    "Setiap hari bersamamu adalah seperti hari Valentine! 💕",
-    "Kamu bersinar lebih terang dari semua bintang di langit! ⭐✨",
-    "Senyummu adalah magic yang bisa bikin hari jadi indah! 😊💖",
-    "Kamu itu princess sejati dengan hati emas! 👑💛",
-    "Seperti bunga sakura, kamu membawa kebahagiaan! 🌸",
-    "Kamu adalah unicorn di dunia yang penuh kuda biasa! 🦄💫"
+    "You're like a cupcake - sweet, cute, and making everyone smile! 🧁✨",
+    "Every day with you is like Valentine's Day! 💕",
+    "You shine brighter than all the stars in the sky! ⭐✨",
+    "Your smile is the magic that can make the day beautiful! 😊💖",
+    "You are a true princess with a heart of gold! 👑💛",
+    "Like cherry blossoms, you bring happiness! 🌸",
+    "You are a unicorn in a world full of ordinary horses! 🦄💫"
 ];
 
 // Mood messages
 const moodMessages = {
-    happy: "Wah senangnya! Ayo sebarkan kebahagiaan! 😊✨",
-    excited: "Energy kamu luar biasa! Keep shining! 🤩⚡",
-    cute: "Aww kamu memang paling imut! 🥰💕",
-    dreamy: "Mimpi indah ya? Semoga jadi kenyataan! 😌💭",
+    happy: "Wow, how wonderful! Let's spread the happiness! 😊✨",
+    excited: "Your energy is amazing! Keep shining! 🤩⚡",
+    cute: "Aww you are the cutest! 🥰💕",
+    dreamy: "Sweet dreams, okay? Hope they come true! 😌💭",
     lovely: "Love is in the air! Spread the love! 😍💖"
 };
 
@@ -199,7 +199,7 @@ document.head.appendChild(newStyle);
 function surpriseMe() {
     const surprises = [
         () => {
-            showCuteMessage('🎉✨ Surprise! Kamu adalah bintang paling terang! ✨🎉');
+            showCuteMessage('🎉✨ Surprise! You are the brightest star! ✨🎉');
             gentleSparkles();
         },
         () => {
@@ -228,15 +228,15 @@ function surpriseMe() {
 function startActivity(type) {
     const activities = {
         magical: () => {
-            showCuteMessage('🌟✨ Keajaiban dimulai! Rasakan kehangatan dan kebahagiaan! ✨🌟');
+            showCuteMessage('🌟✨ The magic begins! Feel the warmth and happiness! ✨🌟');
             gentleSparkles();
         },
         kawaii: () => {
-            showCuteMessage('🥰💕 Kawaii power activated! Kamu makin imut sekarang! 💕🥰');
+            showCuteMessage("🥰💕 Kawaii power activated! You're even cuter now! 💕🥰");
             floatingHearts();
         },
         sweet: () => {
-            showCuteMessage('🍰🌸 Sweet dreams coming true! Hidup ini manis seperti kamu! 🌸🍰');
+            showCuteMessage('🍰🌸 Sweet dreams coming true! Life is as sweet as you! 🌸🍰');
             sweetAnimation();
         }
     };
@@ -251,7 +251,7 @@ function cuteEffects() {
 }
 
 function happyTime() {
-    showCuteMessage('😊💛 Happy time! Semoga hari kamu penuh senyuman! 💛😊');
+    showCuteMessage('😊💛 Happy time! Hope your day is full of smiles! 💛😊');
     happyBounce();
 }
 
