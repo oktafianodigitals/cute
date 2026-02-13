@@ -1,7 +1,6 @@
 
 let currentTheme = 'pink';
 let musicPlaying = false;
-const happyV = document.getElementById('happyV');
 
 // Expressions array
 const expressions = [
