@@ -423,14 +423,6 @@ document.addEventListener('click', function (e) {
 
 // Welcome animation
 window.addEventListener('load', function () {
-    setTimeout(() => {
-        createSparkles();
-    }, 1000);
-
-    setTimeout(() => {
-        emojiRain();
-    }, 2000);
-
     const containerA = document.getElementById('happyV');
     const containerB = document.getElementById('container');
 
@@ -443,6 +435,14 @@ window.addEventListener('load', function () {
         containerA.style.display = 'none';
         containerB.style.display = 'block';
     }, 5000);
+    
+        setTimeout(() => {
+        createSparkles();
+    }, 1000);
+
+    setTimeout(() => {
+        emojiRain();
+    }, 2000);
 });
 
 // Add animation delays to cards
