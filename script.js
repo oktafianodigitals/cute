@@ -431,8 +431,8 @@ window.addEventListener('load', function () {
         emojiRain();
     }, 2000);
     
-    const containerA = document.getElementById('container');
-    const containerB = document.getElementById('happyV');
+    const containerA = document.getElementById('happyV');
+    const containerB = document.getElementById('container');
 
     // Pastikan saat awal hanya containerA yang tampil
     containerA.style.display = 'block';
