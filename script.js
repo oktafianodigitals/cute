@@ -50,7 +50,7 @@ function changeExpression() {
     face.style.animation = 'none';
     setTimeout(() => {
         face.style.animation = 'bounceIn 0.8s ease-out';
-    }, 10);
+    }, 14);
 }
 
 // Set mood
@@ -438,3 +438,4 @@ cards.forEach((card, index) => {
     card.style.animationDelay = (index * 0.2) + 's';
 
 });
+
