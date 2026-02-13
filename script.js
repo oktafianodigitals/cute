@@ -430,17 +430,17 @@ window.addEventListener('load', function () {
     setTimeout(() => {
         emojiRain();
     }, 2000);
-
-    // Setelah 5 detik ganti
-    setTimeout(function () {
-        document.getElementById('happyV').style.display = 'none';
-        document.getElementById('container').style.display = 'block';
-    }, 5000);
 });
 
 // Add animation delays to cards
 const cards = document.querySelectorAll('.cute-card');
 cards.forEach((card, index) => {
     card.style.animationDelay = (index * 0.2) + 's';
-
 });
+
+window.onload = function() {
+    setTimeout(function() {
+        document.getElementById('container').style.display = 'none';
+        document.getElementById('happyV').style.display = 'block';
+    }, 5000);
+};
