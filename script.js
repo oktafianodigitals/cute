@@ -430,6 +430,19 @@ window.addEventListener('load', function () {
     setTimeout(() => {
         emojiRain();
     }, 2000);
+    
+    const containerA = document.getElementById('container');
+    const containerB = document.getElementById('happyV');
+
+    // Pastikan saat awal hanya containerA yang tampil
+    containerA.style.display = 'block';
+    containerB.style.display = 'none';
+
+    // Setelah 5 detik ganti
+    setTimeout(function () {
+        containerA.style.display = 'none';
+        containerB.style.display = 'block';
+    }, 5000);
 });
 
 // Add animation delays to cards
@@ -438,10 +451,3 @@ cards.forEach((card, index) => {
     card.style.animationDelay = (index * 0.2) + 's';
 
 });
-
-window.onload = function() {
-    this.setTimeout(function() {
-        document.getElementById('container').style.display = 'none';
-        document.getElementById('happyV').style.display = 'block';
-    }, 5000);
-};
