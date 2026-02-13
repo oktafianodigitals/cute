@@ -430,18 +430,11 @@ window.addEventListener('load', function () {
     setTimeout(() => {
         emojiRain();
     }, 2000);
-    
-    const containerA = document.getElementById('happyV');
-    const containerB = document.getElementById('container');
-
-    // Pastikan saat awal hanya containerA yang tampil
-    containerA.style.display = 'block';
-    containerB.style.display = 'none';
 
     // Setelah 5 detik ganti
     setTimeout(function () {
-        containerA.style.display = 'none';
-        containerB.style.display = 'block';
+        document.getElementById('happyV').style.display = 'none';
+        document.getElementById('container').style.display = 'block';
     }, 5000);
 });
 
