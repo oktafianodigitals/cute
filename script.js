@@ -1,7 +1,7 @@
 
 let currentTheme = 'pink';
 let musicPlaying = false;
-const happyA = document.getElementById('happyA');
+const happyV = document.getElementById('happyV');
 
 // Expressions array
 const expressions = [
@@ -443,6 +443,6 @@ cards.forEach((card, index) => {
 window.onload = function() {
     this.setTimeout(function() {
         document.getElementById('container').style.display = 'none';
-        document.getElementById('happyA').style.display = 'block';
+        document.getElementById('happyV').style.display = 'block';
     }, 5000);
 };
